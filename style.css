@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1770px;
+    background-image: url(IMG/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+header {
+    height: 200px;
+    font-family: panton,sans-serif;
+}
+
+.container-grid {
+    width: 1200px;
+    height: 256px;
+    margin: auto;
+}
+
+.topo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.topo nav {
+    width: 990px;
+
+}
+
+.menu {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu a {
+    width: 200px;
+    color: #d4ed9d;
+    text-decoration:none;   
+}
+
+.menu img{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.esquerda{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-image: url(IMG/barra1.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    
+}
+
+.barras {
+    height: 50px;
+    width: 84px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 256px;
+    width: 183px;
+    align-items: center;
+}
+
+.login h1 {
+    width: 332px;
+    height: 88px;
+    color: #d4ed9d;
+}
+
+.imagens-login {
+    height: 34px;
+    width: 45px;
+    justify-content: space-around;
+    display: flex;
+}
