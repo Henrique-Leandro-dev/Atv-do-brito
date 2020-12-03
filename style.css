@@ -24,6 +24,7 @@ header {
 }
 
 .topo {
+    
     height: 100%;
     display: flex;
     align-items: center;
@@ -55,6 +56,7 @@ header {
 }
 
 .menu img{
+    margin-top: 100px;
     height: 150px;
     width: 150px;
 }
@@ -80,7 +82,7 @@ header {
 
     width: 100%;
     max-width: 400px;
-    padding-left: 40px;
+    
     padding-top: 40px;
 
 }
@@ -88,8 +90,8 @@ header {
 .login h1 {
     width: 332px;
     height: 88px;
-    padding-right: 15%;
-    padding-top: 8%;
+    padding-left: 5%;
+    padding-top: 20%;
     color: #d4ed9d;
     display: flex;
     justify-content: center;
@@ -99,33 +101,43 @@ header {
 
 .campo{
     padding-top: 23%;
+    padding-right: 24%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
     
     
 }
-.campo label{
+
+.campo img{
+    padding-left: 18px;
     
-    text-transform: uppercase;
+}
+
+
+.campo input{
+    height: 40px;
+    background-image: url(background.svg);
+    border-bottom: solid 6px greenyellow; 
+    padding-right: 60px;
+    margin-top: 5px;
     color: #d4ed9d;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    font-size: 18px;
-
+    
+    
 }
 
-.campo input{
-    background-image: url(background.svg);
+.campo ::placeholder{
+    padding-left: 5px;
+    color: #d4ed9d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 }
 
 
 
 
 
-.imagens-login {
-    height: 34px;
-    width: 45px;
-    justify-content: space-around;
-    display: flex;
-}
+
+
